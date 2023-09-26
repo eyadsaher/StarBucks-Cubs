@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  margin: 3rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  max-width: 8rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 1.7rem;
+  list-style: none;
+}
+
+.navigation {
+  text-decoration: none;
+  color: #212529;
+  transition: all 0.3s;
+}
+
+.navigation:hover,
+.navigation:active {
+  color: #495057;
+}
+
+.hero {
+  margin-top: 6rem;
+  margin-left: 10rem;
+  margin-right: 22rem;
+  display: flex;
+  gap: 30rem;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h2 {
+  color: #343a40;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+.starbucks {
+  color: #087f5b;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.button {
+  /* font: bold 11px Arial; */
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  background-color: #087f5b;
+  color: white;
+  width: 13rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: all 0.4s;
+}
+
+.button:hover,
+.button:active {
+  background-color: #0ca678;
+}
+
+.tinyCups {
+  position: absolute;
+  top: 61rem;
+  right: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.tinyPicsOne,
+.tinyPicsTwo,
+.tinyPicsThree {
+  /* top: -10rem; */
+  width: 6rem;
+  transition: transform ease 400ms;
+  cursor: pointer;
+}
+
+.tinyPicsOne:hover,
+.tinyPicsTwo:hover,
+.tinyPicsThree:hover {
+  transform: translate(0, -15px);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  right: 3rem;
+  filter: invert(1);
+}
+
+.app {
+  transform: scale(0.6);
+}
+
+.circle-green {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #087f5b;
+  z-index: -1;
+  clip-path: circle(60rem at right 80rem);
+}
+
+.circle-pink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e64980;
+  z-index: -2;
+  clip-path: circle(60rem at right 80rem);
+}
+
+.circle-pinkish {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f783ac;
+  z-index: -2;
+  clip-path: circle(60rem at right 80rem);
+}
+
+.hidden {
+  display: none;
+}
