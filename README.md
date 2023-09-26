@@ -1,7 +1,7 @@
 # Starbucks ☕☕
 
 
-Access the site from this link: (https://starbucks-cup-change.netlify.app/)
+To access the site click [here](https://starbucks-cup-change.netlify.app/)
 
 ## Project Description
 
